@@ -11,11 +11,13 @@ const config: SocketIoConfig = { url: 'http://localhost:5000', options: {} };
 // Configurando ng2-charts
 import { ChartsModule } from 'ng2-charts';
 import { GraficaComponent } from './components/grafica/grafica.component';
+import { EncuestaComponent } from './components/encuesta/encuesta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GraficaComponent
+    GraficaComponent,
+    EncuestaComponent
   ],
   imports: [
     BrowserModule,
