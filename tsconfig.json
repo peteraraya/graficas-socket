@@ -11,6 +11,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "paths": {
+      "rxjs": [
+        "node_modules/rxjs"
+      ]
+    },
     "typeRoots": [
       "node_modules/@types"
     ],
